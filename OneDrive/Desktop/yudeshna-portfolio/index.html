@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Yudeshna Nalla | AI & Data Science</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Outfit',sans-serif;
+}
+
+body{
+    background:#fdfcff;
+    color:#1c1c1c;
+}
+
+/* Navigation */
+nav{
+    position:fixed;
+    width:100%;
+    padding:18px 60px;
+    background:white;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    box-shadow:0 3px 15px rgba(0,0,0,0.05);
+    z-index:1000;
+}
+
+nav h3{
+    color:#6c63ff;
+    font-weight:600;
+}
+
+nav a{
+    margin-left:20px;
+    text-decoration:none;
+    color:#444;
+    font-weight:500;
+}
+
+nav a:hover{
+    color:#6c63ff;
+}
+
+/* Sections */
+section{
+    padding:110px 80px 60px;
+}
+
+/* Hero */
+.hero{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    flex-wrap:wrap;
+    padding-top:160px;
+}
+
+.hero-text{
+    max-width:520px;
+}
+
+.hero h1{
+    font-size:42px;
+    background:linear-gradient(90deg,#6c63ff,#ff6ec7);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+}
+
+.hero h2{
+    margin-top:8px;
+    font-weight:400;
+    color:#555;
+    font-size:20px;
+}
+
+.hero p{
+    margin-top:15px;
+    line-height:1.6;
+    font-size:15px;
+}
+
+.hero img{
+    width:260px;
+    height:260px;
+    border-radius:16px;
+    object-fit:cover;
+    box-shadow:0 15px 35px rgba(108,99,255,0.2);
+}
+
+/* Highlight Bar */
+.highlight-bar{
+    margin-top:20px;
+    display:flex;
+    gap:12px;
+    flex-wrap:wrap;
+}
+
+.highlight{
+    background:#f3f0ff;
+    padding:8px 14px;
+    border-radius:8px;
+    font-size:12px;
+}
+
+/* Grid Layout */
+.grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:25px;
+    margin-top:30px;
+}
+
+/* Card */
+.card{
+    background:white;
+    padding:25px;
+    border-radius:14px;
+    box-shadow:0 8px 25px rgba(0,0,0,0.05);
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:translateY(-5px);
+    box-shadow:0 15px 35px rgba(108,99,255,0.1);
+}
+
+.card h3{
+    margin-bottom:15px;
+    color:#6c63ff;
+    font-size:20px;
+}
+
+ul{
+    list-style:none;
+}
+
+li{
+    margin-bottom:8px;
+    font-size:14px;
+    line-height:1.6;
+}
+
+/* Projects */
+.project-item{
+    margin-top:15px;
+}
+
+.project-links{
+    margin-top:15px;
+}
+
+.btn{
+    display:inline-block;
+    padding:8px 14px;
+    background:#6c63ff;
+    color:white;
+    text-decoration:none;
+    border-radius:6px;
+    font-size:14px;
+    margin-right:10px;
+    transition:0.3s;
+}
+
+.btn:hover{
+    background:#5548d9;
+}
+
+.btn-outline{
+    display:inline-block;
+    padding:8px 14px;
+    border:1px solid #6c63ff;
+    color:#6c63ff;
+    text-decoration:none;
+    border-radius:6px;
+    font-size:14px;
+    transition:0.3s;
+}
+
+.btn-outline:hover{
+    background:#6c63ff;
+    color:white;
+}
+
+.tech-stack{
+    margin-top:12px;
+}
+
+.tech{
+    display:inline-block;
+    background:#f3f0ff;
+    color:#6c63ff;
+    padding:6px 10px;
+    border-radius:6px;
+    font-size:12px;
+    margin:4px 6px 0 0;
+}
+
+/* Alternate section background */
+section:nth-child(even){
+    background:#faf9ff;
+}
+
+/* Footer */
+footer{
+    text-align:center;
+    padding:25px;
+    margin-top:40px;
+    background:#f3f0ff;
+    font-size:13px;
+}
+
+/* Responsive */
+@media(max-width:768px){
+    nav{
+        padding:15px 25px;
+    }
+    section{
+        padding:90px 25px 50px;
+    }
+    .hero{
+        flex-direction:column;
+        text-align:center;
+    }
+    .hero img{
+        margin-top:25px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<nav>
+<h3>Yudeshna</h3>
+<div>
+<a href="#about">About</a>
+<a href="#focus">Focus</a>
+<a href="#projects">Projects</a>
+<a href="#contact">Contact</a>
+</div>
+</nav>
+
+<section class="hero">
+<div class="hero-text">
+<h1>Yudeshna Nalla</h1>
+<h2>AI & Data Science Student | GATE DA Aspirant</h2>
+<p>
+Building strong fundamentals in Machine Learning and Data Analytics through disciplined preparation and structured learning.
+</p>
+
+<div class="highlight-bar">
+<div class="highlight">🎯 GATE DA Preparation</div>
+<div class="highlight">📊 Data Analytics</div>
+<div class="highlight">🤖 ML Basics</div>
+<div class="highlight">💡 Hackathons</div>
+</div>
+</div>
+
+<img src="profile.jpg" alt="Profile">
+</section>
+
+<section id="about">
+<div class="card">
+<h3>About Me</h3>
+<p>
+I am focused on developing strong conceptual clarity in core computer science and data science subjects while preparing for GATE DA. Alongside academic preparation, I build practical projects to apply concepts in real-world systems.
+</p>
+</div>
+</section>
+
+<section id="focus">
+<div class="grid">
+<div class="card">
+<h3>Academic Focus (GATE DA)</h3>
+<ul>
+<li>Data Structures & Algorithms</li>
+<li>Probability & Statistics</li>
+<li>Linear Algebra</li>
+<li>Machine Learning Foundations</li>
+<li>Database Systems</li>
+</ul>
+</div>
+
+<div class="card">
+<h3>Skills</h3>
+<ul>
+<li>Python, Java</li>
+<li>Next.js Basics</li>
+<li>SQL</li>
+<li>Tableau & Power BI</li>
+<li>Machine Learning (Foundations)</li>
+</ul>
+</div>
+</div>
+</section>
+
+<section id="projects">
+<div class="card">
+<h3>Projects</h3>
+
+<div class="project-item">
+<h4>Emergency Fuel Platform</h4>
+<p>
+A full-stack emergency fuel assistance platform with role-based dashboards for customers, vendors, and administrators.
+Built with modern UI components and deployed on Vercel.
+</p>
+
+<div class="tech-stack">
+<span class="tech">Next.js</span>
+<span class="tech">TypeScript</span>
+<span class="tech">Tailwind CSS</span>
+<span class="tech">Vercel</span>
+</div>
+
+<div class="project-links">
+<a href="https://emergency-fuel-platform.vercel.app" target="_blank" class="btn">
+Live Demo
+</a>
+
+<a href="https://github.com/yudeshna/emergency-fuel-platform" target="_blank" class="btn-outline">
+View Code
+</a>
+</div>
+
+</div>
+</div>
+</section>
+
+<section id="contact">
+<div class="card">
+<h3>Contact</h3>
+
+<p><strong>Email:</strong> 
+<a href="mailto:nallayudeshna@gmail.com">nallayudeshna@gmail.com</a>
+</p>
+
+<p><strong>LinkedIn:</strong> 
+<a href="https://www.linkedin.com/in/nalla-yudeshna-93174136a" target="_blank">
+linkedin.com/in/nalla-yudeshna-93174136a
+</a>
+</p>
+
+<p><strong>GitHub:</strong> 
+<a href="https://github.com/yudeshna" target="_blank">
+github.com/yudeshna
+</a>
+</p>
+
+</div>
+</section>
+
+<footer>
+© 2026 Yudeshna Nalla
+</footer>
+
+</body>
+</html>
